@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A13C1E5209F01BD00BAC08A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C1E4209F01BD00BAC08A /* AppDelegate.m */; };
+		5A13C1E8209F01BD00BAC08A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C1E7209F01BD00BAC08A /* ViewController.m */; };
+		5A13C1EB209F01BD00BAC08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A13C1E9209F01BD00BAC08A /* Main.storyboard */; };
+		5A13C1ED209F01C000BAC08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A13C1EC209F01C000BAC08A /* Assets.xcassets */; };
+		5A13C1F0209F01C000BAC08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A13C1EE209F01C000BAC08A /* LaunchScreen.storyboard */; };
+		5A13C1F3209F01C000BAC08A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C1F2209F01C000BAC08A /* main.m */; };
+		5A13C1FB209FFF5B00BAC08A /* EOCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C1FA209FFF5B00BAC08A /* EOCMainViewController.m */; };
+		5A13C1FF20A0024000BAC08A /* EOCBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C1FE20A0024000BAC08A /* EOCBezierPathViewController.m */; };
+		5A13C20220A0060400BAC08A /* bg-mine.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A13C20020A0060300BAC08A /* bg-mine.png */; };
+		5A13C20320A0060400BAC08A /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A13C20120A0060300BAC08A /* plane.png */; };
+		5A13C20720A0436F00BAC08A /* EOCBasicAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C20620A0436F00BAC08A /* EOCBasicAnimViewController.m */; };
+		5A13C20B20A048AD00BAC08A /* EOCShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C20A20A048AD00BAC08A /* EOCShapeLayer.m */; };
+		5A13C21220A0506100BAC08A /* EOCKeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C21120A0506100BAC08A /* EOCKeyFrameAnimationViewController.m */; };
+		5A13C21620A0543500BAC08A /* EOCCAMediaTimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C21520A0543500BAC08A /* EOCCAMediaTimingViewController.m */; };
+		5A13C21A20A058F000BAC08A /* EOCAnimationCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C21920A058F000BAC08A /* EOCAnimationCaseViewController.m */; };
+		5A13C21D20A0599E00BAC08A /* EOCAnimationCaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C21C20A0599E00BAC08A /* EOCAnimationCaseView.m */; };
+		5A13C22120A07B6D00BAC08A /* EOCTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C22020A07B6D00BAC08A /* EOCTransitionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A13C1E0209F01BD00BAC08A /* 高级动画二  VIP第三期.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高级动画二  VIP第三期.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A13C1E3209F01BD00BAC08A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A13C1E4209F01BD00BAC08A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A13C1E6209F01BD00BAC08A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A13C1E7209F01BD00BAC08A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A13C1EA209F01BD00BAC08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A13C1EC209F01C000BAC08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A13C1EF209F01C000BAC08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A13C1F1209F01C000BAC08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A13C1F2209F01C000BAC08A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A13C1F9209FFF5B00BAC08A /* EOCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCMainViewController.h; sourceTree = "<group>"; };
+		5A13C1FA209FFF5B00BAC08A /* EOCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCMainViewController.m; sourceTree = "<group>"; };
+		5A13C1FD20A0024000BAC08A /* EOCBezierPathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCBezierPathViewController.h; sourceTree = "<group>"; };
+		5A13C1FE20A0024000BAC08A /* EOCBezierPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCBezierPathViewController.m; sourceTree = "<group>"; };
+		5A13C20020A0060300BAC08A /* bg-mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-mine.png"; sourceTree = "<group>"; };
+		5A13C20120A0060300BAC08A /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		5A13C20520A0436F00BAC08A /* EOCBasicAnimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCBasicAnimViewController.h; sourceTree = "<group>"; };
+		5A13C20620A0436F00BAC08A /* EOCBasicAnimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCBasicAnimViewController.m; sourceTree = "<group>"; };
+		5A13C20920A048AD00BAC08A /* EOCShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCShapeLayer.h; sourceTree = "<group>"; };
+		5A13C20A20A048AD00BAC08A /* EOCShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCShapeLayer.m; sourceTree = "<group>"; };
+		5A13C21020A0506100BAC08A /* EOCKeyFrameAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCKeyFrameAnimationViewController.h; sourceTree = "<group>"; };
+		5A13C21120A0506100BAC08A /* EOCKeyFrameAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCKeyFrameAnimationViewController.m; sourceTree = "<group>"; };
+		5A13C21420A0543500BAC08A /* EOCCAMediaTimingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCCAMediaTimingViewController.h; sourceTree = "<group>"; };
+		5A13C21520A0543500BAC08A /* EOCCAMediaTimingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCCAMediaTimingViewController.m; sourceTree = "<group>"; };
+		5A13C21820A058F000BAC08A /* EOCAnimationCaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAnimationCaseViewController.h; sourceTree = "<group>"; };
+		5A13C21920A058F000BAC08A /* EOCAnimationCaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAnimationCaseViewController.m; sourceTree = "<group>"; };
+		5A13C21B20A0599E00BAC08A /* EOCAnimationCaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAnimationCaseView.h; sourceTree = "<group>"; };
+		5A13C21C20A0599E00BAC08A /* EOCAnimationCaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAnimationCaseView.m; sourceTree = "<group>"; };
+		5A13C21F20A07B6D00BAC08A /* EOCTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCTransitionViewController.h; sourceTree = "<group>"; };
+		5A13C22020A07B6D00BAC08A /* EOCTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCTransitionViewController.m; sourceTree = "<group>"; };
+		5A13C22220A09BA700BAC08A /* 课程回顾.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "课程回顾.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A13C1DD209F01BD00BAC08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A13C1D7209F01BD00BAC08A = {
+			isa = PBXGroup;
+			children = (
+				5A13C1E2209F01BD00BAC08A /* 高级动画二  VIP第三期 */,
+				5A13C1E1209F01BD00BAC08A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A13C1E1209F01BD00BAC08A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C1E0209F01BD00BAC08A /* 高级动画二  VIP第三期.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A13C1E2209F01BD00BAC08A /* 高级动画二  VIP第三期 */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C1E3209F01BD00BAC08A /* AppDelegate.h */,
+				5A13C1E4209F01BD00BAC08A /* AppDelegate.m */,
+				5A13C22220A09BA700BAC08A /* 课程回顾.h */,
+				5A13C1F9209FFF5B00BAC08A /* EOCMainViewController.h */,
+				5A13C1FA209FFF5B00BAC08A /* EOCMainViewController.m */,
+				5A13C20820A0438500BAC08A /* 动画代理 */,
+				5A13C1FC20A0022400BAC08A /* 贝塞尔曲线 */,
+				5A13C20420A0434D00BAC08A /* CABasicAnimation */,
+				5A13C20F20A0504200BAC08A /* CAKeyFrameAnimation */,
+				5A13C21E20A07B4900BAC08A /* 过渡转场动画 */,
+				5A13C21320A053F400BAC08A /* 动画时间 */,
+				5A13C21720A058D300BAC08A /* 动画综合案例 */,
+				5A13C1E9209F01BD00BAC08A /* Main.storyboard */,
+				5A13C1EC209F01C000BAC08A /* Assets.xcassets */,
+				5A13C1EE209F01C000BAC08A /* LaunchScreen.storyboard */,
+				5A13C1F1209F01C000BAC08A /* Info.plist */,
+				5A13C20020A0060300BAC08A /* bg-mine.png */,
+				5A13C20120A0060300BAC08A /* plane.png */,
+				5A13C1F2209F01C000BAC08A /* main.m */,
+			);
+			path = "高级动画二  VIP第三期";
+			sourceTree = "<group>";
+		};
+		5A13C1FC20A0022400BAC08A /* 贝塞尔曲线 */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C1FD20A0024000BAC08A /* EOCBezierPathViewController.h */,
+				5A13C1FE20A0024000BAC08A /* EOCBezierPathViewController.m */,
+			);
+			path = "贝塞尔曲线";
+			sourceTree = "<group>";
+		};
+		5A13C20420A0434D00BAC08A /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C20520A0436F00BAC08A /* EOCBasicAnimViewController.h */,
+				5A13C20620A0436F00BAC08A /* EOCBasicAnimViewController.m */,
+				5A13C20920A048AD00BAC08A /* EOCShapeLayer.h */,
+				5A13C20A20A048AD00BAC08A /* EOCShapeLayer.m */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		5A13C20820A0438500BAC08A /* 动画代理 */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C1E6209F01BD00BAC08A /* ViewController.h */,
+				5A13C1E7209F01BD00BAC08A /* ViewController.m */,
+			);
+			path = "动画代理";
+			sourceTree = "<group>";
+		};
+		5A13C20F20A0504200BAC08A /* CAKeyFrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C21020A0506100BAC08A /* EOCKeyFrameAnimationViewController.h */,
+				5A13C21120A0506100BAC08A /* EOCKeyFrameAnimationViewController.m */,
+			);
+			path = CAKeyFrameAnimation;
+			sourceTree = "<group>";
+		};
+		5A13C21320A053F400BAC08A /* 动画时间 */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C21420A0543500BAC08A /* EOCCAMediaTimingViewController.h */,
+				5A13C21520A0543500BAC08A /* EOCCAMediaTimingViewController.m */,
+			);
+			path = "动画时间";
+			sourceTree = "<group>";
+		};
+		5A13C21720A058D300BAC08A /* 动画综合案例 */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C21820A058F000BAC08A /* EOCAnimationCaseViewController.h */,
+				5A13C21920A058F000BAC08A /* EOCAnimationCaseViewController.m */,
+				5A13C21B20A0599E00BAC08A /* EOCAnimationCaseView.h */,
+				5A13C21C20A0599E00BAC08A /* EOCAnimationCaseView.m */,
+			);
+			path = "动画综合案例";
+			sourceTree = "<group>";
+		};
+		5A13C21E20A07B4900BAC08A /* 过渡转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				5A13C21F20A07B6D00BAC08A /* EOCTransitionViewController.h */,
+				5A13C22020A07B6D00BAC08A /* EOCTransitionViewController.m */,
+			);
+			path = "过渡转场动画";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A13C1DF209F01BD00BAC08A /* 高级动画二  VIP第三期 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A13C1F6209F01C000BAC08A /* Build configuration list for PBXNativeTarget "高级动画二  VIP第三期" */;
+			buildPhases = (
+				5A13C1DC209F01BD00BAC08A /* Sources */,
+				5A13C1DD209F01BD00BAC08A /* Frameworks */,
+				5A13C1DE209F01BD00BAC08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "高级动画二  VIP第三期";
+			productName = "高级动画二  VIP第三期";
+			productReference = 5A13C1E0209F01BD00BAC08A /* 高级动画二  VIP第三期.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A13C1D8209F01BD00BAC08A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "八点钟学院";
+				TargetAttributes = {
+					5A13C1DF209F01BD00BAC08A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5A13C1DB209F01BD00BAC08A /* Build configuration list for PBXProject "高级动画二  VIP第三期" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A13C1D7209F01BD00BAC08A;
+			productRefGroup = 5A13C1E1209F01BD00BAC08A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A13C1DF209F01BD00BAC08A /* 高级动画二  VIP第三期 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A13C1DE209F01BD00BAC08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13C1F0209F01C000BAC08A /* LaunchScreen.storyboard in Resources */,
+				5A13C20220A0060400BAC08A /* bg-mine.png in Resources */,
+				5A13C20320A0060400BAC08A /* plane.png in Resources */,
+				5A13C1ED209F01C000BAC08A /* Assets.xcassets in Resources */,
+				5A13C1EB209F01BD00BAC08A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A13C1DC209F01BD00BAC08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13C20B20A048AD00BAC08A /* EOCShapeLayer.m in Sources */,
+				5A13C1E8209F01BD00BAC08A /* ViewController.m in Sources */,
+				5A13C21A20A058F000BAC08A /* EOCAnimationCaseViewController.m in Sources */,
+				5A13C21620A0543500BAC08A /* EOCCAMediaTimingViewController.m in Sources */,
+				5A13C1FF20A0024000BAC08A /* EOCBezierPathViewController.m in Sources */,
+				5A13C20720A0436F00BAC08A /* EOCBasicAnimViewController.m in Sources */,
+				5A13C1FB209FFF5B00BAC08A /* EOCMainViewController.m in Sources */,
+				5A13C21220A0506100BAC08A /* EOCKeyFrameAnimationViewController.m in Sources */,
+				5A13C1F3209F01C000BAC08A /* main.m in Sources */,
+				5A13C1E5209F01BD00BAC08A /* AppDelegate.m in Sources */,
+				5A13C21D20A0599E00BAC08A /* EOCAnimationCaseView.m in Sources */,
+				5A13C22120A07B6D00BAC08A /* EOCTransitionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A13C1E9209F01BD00BAC08A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A13C1EA209F01BD00BAC08A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A13C1EE209F01C000BAC08A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A13C1EF209F01C000BAC08A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A13C1F4209F01C000BAC08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A13C1F5209F01C000BAC08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A13C1F7209F01C000BAC08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V272W7YD5Y;
+				INFOPLIST_FILE = "高级动画二  VIP第三期/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.-------VIP---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A13C1F8209F01C000BAC08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V272W7YD5Y;
+				INFOPLIST_FILE = "高级动画二  VIP第三期/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.-------VIP---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A13C1DB209F01BD00BAC08A /* Build configuration list for PBXProject "高级动画二  VIP第三期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A13C1F4209F01C000BAC08A /* Debug */,
+				5A13C1F5209F01C000BAC08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A13C1F6209F01C000BAC08A /* Build configuration list for PBXNativeTarget "高级动画二  VIP第三期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A13C1F7209F01C000BAC08A /* Debug */,
+				5A13C1F8209F01C000BAC08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A13C1D8209F01BD00BAC08A /* Project object */;
+}
